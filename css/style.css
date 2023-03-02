@@ -111,7 +111,7 @@ border: 1px solid #558ab7 !important;
 .nav nav li a{color:#fff; padding: 0 30px;}
 .lang{display: flex;}
 .lang a{color: #fff; margin-left: 30px;}
-.main_con{padding: 300px 0 300px 0; color:#fff;}
+.main_con{padding: 400px 0 200px 0; color:#fff;}
 .main_con h2{font-size: 250%; margin-bottom: 30px; line-height: 3.5rem;}
 .main_con p{font-size: 120%;}
 
