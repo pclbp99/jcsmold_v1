@@ -1,0 +1,100 @@
+@media (max-width:1440px){
+	.contact_form{padding:80px;}
+}
+
+@media (max-width:1199px){
+    body{font-size: 90%;}
+    .inner{max-width:100%; padding: 0 50px;}
+    .nav{font-size: 80%; height:70px;}
+    .nav .logo{width:60px;}
+    .nav .logo img{width:60px;}
+    .main_con{padding: 200px 0;}
+    .main_con h2{font-size: 200%; line-height: 2.5rem;}
+    #company{padding: 60px 0; background-size: 45%;}
+    .title_m{font-size: 150%;}
+    .title_l{font-size: 200%;}
+    .label{font-size: 90%;}
+    #company .con{font-size: 100%; margin-bottom: 50px;}
+    #company img{width:60px;}
+    #ceo{padding: 100px 0;}
+    .ceo_con .con{font-size: 100%;}
+    #history{padding: 90px 0;}
+    #history .title_l{margin-bottom: 50px;}
+    .his_li{font-size: 100%; margin-bottom: 30px;}
+    .his_li .year{width:70px; height:70px; padding: 27px 0;}
+    #vision{padding: 80px 0;}
+    #vision .title_m{margin-bottom: 50px;}
+    #vision .title_m img{width: 12px;}
+    .modal{width:800px; height: 500px;}
+}
+
+@media (max-width: 1023px){
+    .inner{padding: 0 30px;}
+    .nav nav{display: none;}
+    .main_con{padding: 150px 0;}
+    .main_con h2{margin-bottom: 30px;}
+    .contact_form{padding: 80px 30px;}
+    .location{padding: 80px 30px;}
+    .vb{padding: 30px 20px;}
+    .modal{padding: 50px;}
+}
+
+@media (max-width: 768px){
+    #contact > div{width:100%;}
+    .contact_form{padding: 50px 30px;}
+    .location{padding: 50px 30px;}
+    .modal{width:90%;}
+    .btnClose{width: 24px; height: 24px; top: 16px; right: 16px;background-size: 90%;}
+    .modal .modal_tit{font-size: 100%;}
+}
+
+@media (max-width: 767px){
+    .main_con h2{font-size: 150%; line-height: 2rem; margin-bottom: 20px;}
+    .main_con p{font-size: 100%;}
+    #company .con{text-align: left;}
+    #ceo{padding: 60px 0;}
+    .ceo_flex > div{width:100%;}
+    .ceo_flex > div:first-child{display: none;}
+    .ceo_con .label{text-align: center;}
+    .ceo_con .title_m{text-align: center;}
+    .his_50{width:100%;}
+    #factory{padding: 70px 0;}
+    #factory .title_l{margin-bottom: 30px;}
+    .fac_ul li{width:calc(50% - 10px); margin-bottom: 10px; padding: 15px 0; border-radius: 10px;}
+    .swiper-slide{min-height: 300px !important;}
+    .vb{width:100%; margin-bottom: 20px;}
+    .product_btn button{font-size: 90%;}
+    .swiper-pagination{margin-top:30px !important;}
+    #vision .title_m img{width: 10px;}
+    .vb_tit{margin-bottom: 10px;}
+    .form_box textarea{margin-bottom: 30px;}
+    .modal{padding: 20px 16px}
+    .modal .modal_tit{font-size: 90%;}
+}   
+
+@media (max-width: 426px){
+    .inner{padding: 0 16px;}
+    .nav{height: 55px; padding: 0 16px;}
+    .nav .logo{width: 45px;}
+    .nav .logo img{width: 45px;}
+    .main_con{padding: 120px 0;}
+    #company .title_m{margin-bottom: 30px; word-break: keep-all;}
+    .ceo_con .title_m{margin-bottom: 30px; word-break: keep-all;}
+    .ceo_con .con{line-height: 1.5rem;}
+    #history{padding: 50px 0;}
+    .his_li{margin-bottom: 15px; font-size: 90%;}
+    .his_li .year {width: 60px; height: 60px; padding: 23px 0; margin-right: 10px;}
+    .fac_ul{margin-bottom: 10px;}
+    .fac_ul li{width:100%; padding: 10px 0;}
+    .swiper-slide { min-height: 200px !important;}
+    .swiper-slide .tab_img {height:auto;}
+    .swiper-pagination{margin-top:20px !important;}
+    #vision .title_m{word-break: keep-all;}
+    .vb{padding: 20px 16px;}
+    .contact_form{padding: 50px 16px;}
+    .location{padding: 50px 16px;}
+    .contact_form .title_l{font-size: 130%; margin-bottom: 20px;}
+    .location .title_l{font-size: 130%; margin-bottom: 20px;}
+    .loc_info p{font-size: 85%;}
+    .vb_con{font-size: 90%;}
+}
