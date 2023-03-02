@@ -8,7 +8,7 @@
     .nav{font-size: 80%; height:70px;}
     .nav .logo{width:60px;}
     .nav .logo img{width:60px;}
-    .main_con{padding: 200px 0;}
+    .main_con{padding: 250px 0 150px 0;}
     .main_con h2{font-size: 200%; line-height: 2.5rem;}
     #company{padding: 60px 0; background-size: 45%;}
     .title_m{font-size: 150%;}
@@ -70,6 +70,7 @@
     .form_box textarea{margin-bottom: 30px;}
     .modal{padding: 20px 16px}
     .modal .modal_tit{font-size: 90%;}
+    footer h1 img{width: 50px;}
 }   
 
 @media (max-width: 426px){
@@ -97,4 +98,5 @@
     .location .title_l{font-size: 130%; margin-bottom: 20px;}
     .loc_info p{font-size: 85%;}
     .vb_con{font-size: 90%;}
+    footer{padding: 30px 0;}
 }
