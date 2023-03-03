@@ -30,6 +30,7 @@
 
 @media (max-width: 1023px){
     .inner{padding: 0 30px;}
+    .nav .m_menu{display: block;}
     .nav nav{display: none;}
     .main_con{padding: 150px 0;}
     .main_con h2{margin-bottom: 30px;}

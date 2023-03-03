@@ -36,7 +36,7 @@
 }
 
 /* 초기화 */
-html {overflow-y:scroll; scroll-behavior: smooth;}
+html {overflow-y:scroll; scroll-behavior: smooth; overflow-x: hidden;}
 body {margin:0;padding:0;font-size:100%;font-family: 'Noto Sans KR', sans-serif;background:#FDFDF7; position: relative;}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em;font-family: 'Noto Sans KR', sans-serif;}
@@ -104,13 +104,22 @@ border: 1px solid #558ab7 !important;
     -webkit-transition-timing-function:ease;
     transition-duration:0.75s;
     transition-timing-function:ease;}
+.nav .m_menu{display: none;}
 .nav .logo{width: 75px;}
 .nav .logo img{width:100%;}
 .nav .inner{margin:0;}
 .nav nav{display: flex; align-items: center;justify-content: flex-end;}
 .nav nav li a{color:#fff; padding: 0 30px;}
+.menu_r{display: flex; justify-content: center;align-items: center;}
 .lang{display: flex;}
-.lang a{color: #fff; margin-left: 30px;}
+.lang a{color: #fff; margin-right: 30px;}
+.m_menu_con .menu_bg{width: 100%; height: 100vh; background: rgba(0,0,0,0.5); z-index: 999999;
+    position: fixed; top:0; left: 0; cursor: pointer; display: none;}
+.m_menu_con .menu_con{width: 60%; height: 100vh; position: absolute; top:0; right: -60%; background:#fff;
+z-index: 9999999; padding: 20px 16px;}
+.m_menu_con .menu_con ul{margin-top: 30px;}
+.m_menu_con .menu_con ul li{padding: 20px 16px; border-bottom: 1px solid #e5e5e5; font-family: 'SBAggro'; 
+    font-weight: 500; letter-spacing: 0;}
 .main_con{padding: 400px 0 200px 0; color:#fff;}
 .main_con h2{font-size: 250%; margin-bottom: 30px; line-height: 3.5rem;}
 .main_con p{font-size: 120%;}
