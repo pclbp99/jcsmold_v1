@@ -6,30 +6,73 @@ $(function(){
         else $('.nav').removeClass('active')
     });
 
+    /* mobile menu */
+    $('.menu_r').click(function(){
+        $('.menu_bg').fadeIn();
+        $('.menu_con').animate({right:0});
+        $('.menu_con').css({
+            "top":(($(window).height() - $(".menu_con").outerHeight())/2 + $(window).scrollTop()) + "px"
+        });
+        $("body").css("overflow", "hidden");
+        $("html").css("overflow", "hidden");
+    });
+
+    $('.menu_bg').click(function(){
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
+    });
+
     /* section position */
     $('.m1').click(function(){
         var offset = $('#company').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
+        
     });
     $('.m2').click(function(){
         var offset = $('#ceo').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
     });
     $('.m3').click(function(){
         var offset = $('#history').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
     });
     $('.m4').click(function(){
         var offset = $('#factory').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
     });
     $('.m5').click(function(){
         var offset = $('#vision').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
     });
     $('.m6').click(function(){
         var offset = $('#contact').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
+        $('.menu_bg').fadeOut();
+        $('.menu_con').animate({right:'-60%'});
+        $("body").css("overflow", "auto");
+        $("html").css("overflow", "auto");
     });
 
     /* factory */
@@ -70,6 +113,8 @@ $(function(){
 
         $(".btnClose").click(function(){
             $(".modal_bg").css("display","none");
+            $('.menu_bg').fadeOut();
+            $('.menu_con').animate({right:'-60%'});
             $("#" + prd + "_view").css("display","none");
             $("body").css("overflow", "auto");
             $("html").css("overflow", "auto");
